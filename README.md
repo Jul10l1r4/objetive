@@ -1,4 +1,4 @@
-# objetive
+# Objetive
 This software is a mini-crawler that aims to grab some text parts from some website or ip that responds http*
 
 # Utility
@@ -12,3 +12,6 @@ Infraestrutura
 Segurança da informação
 Contato
 ```
+# Filosofy
+This software follow the filosofiy KISS (Keep it simple, stupid!) and belive in simplicity.
+We are free software and respect the you privacity :stuck_out_tongue_closed_eyes:
