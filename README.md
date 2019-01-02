@@ -6,7 +6,7 @@ This tool can be used in others projects that depend of specifics informations.
 
 # Example
 ```bash
-$ pip3 install -r requeriments.txt
+$ pip3 install -r requirements.txt
 $ python3 objective.py https://jul10l1r4.github.io -t
 Desenvolvimento Web
 Infraestrutura
