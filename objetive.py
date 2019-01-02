@@ -8,18 +8,16 @@ heelp =  """
     0BJ3T1V3: This software is a mini-crawler that aims to grab some text
         parts from some website or ip that responds http*.
 
-    Objetive: python2 objetive.py [url] [option]
+    Objetive: python objetive.py [url] [option]
         
     URL:
-        Is the host web, example: jul10l1r4.github.io or 4.4.4.4
+        Is the host web, example: https://jul10l1r4.github.io
     
     OPTION:
         Can pass specific option.
         -t, --title     For get all titles, tags in "h1".
         -txt, --text    For get all text in paragraphs.
         -a, --anchol    For get all urls in tag "a"
-        
-    For more informations makearticle.com.br
 """
 args = 0
 # Connect to target
