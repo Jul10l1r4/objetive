@@ -6,7 +6,8 @@ This tool can be used in others projects that depend of specifics informations.
 
 # Example
 ```bash
-$ python2 objective.py https://jul10l1r4.github.io -t
+$ pip3 install -r requeriments.txt
+$ python3 objective.py https://jul10l1r4.github.io -t
 Desenvolvimento Web
 Infraestrutura
 Segurança da informação
