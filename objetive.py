@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
-import mechanicalsoup # needed
 import os
 import sys
+try:
+        import mechanicalsoup # needed
+except ModuleNotFoundError:
+        print('\033[31mYou need install mechanicalsoup\ndont install the packages of requeriments.txt?\033[0m')
+        exit(2)
 
 #define man
 heelp =  """
