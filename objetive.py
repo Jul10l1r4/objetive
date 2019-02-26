@@ -37,40 +37,40 @@ def text():
         try:
                 print(p.text)
         except:
-                print("Houve um erro nesse url");
+                print("Houve um erro nesta url");
     for span in browser.get_current_page().select('span'):
         try:
                 print(span.text)
         except:
-                print("Houve um erro ao pegar esse texto")
+                print("Houve um erro ao pegar este texto")
     for strong in browser.get_current_page().select('strong'):
         try:
                 print(strong.text)
         except:
-                print("Houve um erro ao pegar esse texto")
+                print("Houve um erro ao pegar este texto")
     for italic in browser.get_current_page().select('i'):
         try:
                 print(i.text)
         except:
-                print("Houve um erro ao pegar esse texto")
+                print("Houve um erro ao pegar este texto")
 
 def title():
     for h1 in browser.get_current_page().select('h1'):
         try:
                 print(h1.text)
         except:
-                print("Houve um erro ao pegar esse titulo")
+                print("Houve um erro ao pegar este titulo")
 
     for h2 in browser.get_current_page().select('h2'):
         try:
                 print(h2.text)
         except:
-                print("Houve um erro ao pegar esse titulo")
+                print("Houve um erro ao pegar este titulo")
     for h3 in browser.get_current_page().select('h3'):
         try:
                 print(h3.text)
         except:
-                print("Houve um erro ao pegar esse titulo")
+                print("Houve um erro ao pegar este titulo")
 
 
 def links():
@@ -78,7 +78,7 @@ def links():
         try:
                 print(link.text)
         except:
-                print("Houve um erro ao pegar esse link")
+                print("Houve um erro ao pegar este link")
 
 # For all arguments get in all numbers
 while args <= (len(sys.argv) - 1):
