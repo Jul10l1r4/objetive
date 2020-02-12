@@ -28,7 +28,6 @@ def text(url):
             value = value + link.text + ' '
 
         return value
-    # All texts
     try:
         return all()
     except:
