@@ -8,7 +8,9 @@ This tool can be used in others projects that depend of specifics informations.
 ```python
 import objetive
 print(objetive.listed('https://jul10l1r4.github.io'))
-# [...]
+# ["Ipsum"...]
+print(objetive.text('https://jul10l1r4.github.io'))
+# "Ipsum..."
 ```
 
 # Install
