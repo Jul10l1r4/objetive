@@ -13,10 +13,10 @@ def text(url):
             pass
 
     except:
-        pass
+        return "Error for request the page"
 
     # All functions for get values
-    def all():
+    def get_content():
         value = ""
         for p in browser.get_current_page().select('p'):
             value = value + p.text + ' '
@@ -29,7 +29,7 @@ def text(url):
 
         return value
     try:
-        return all()
+        return get_content()
     except:
         return "Not any texts :("
 
